@@ -82,7 +82,7 @@ function Contact() {
               </div>
               <div>
                 <div className="font-semibold text-primary">About the company</div>
-                <div className="mt-1 text-muted-foreground">Abishree Industry (est. 2018), the successor to <strong>Abirami Bakelite & Plastic</strong> (est. 1998). Every part is manufactured to the drawing supplied by the customer.</div>
+                <div className="mt-1 text-muted-foreground">Abishree Industry (est. 2018), the successor to <strong>Abirami Bakelite & Plastic</strong> (est. 1994). Every part is manufactured to the drawing supplied by the customer.</div>
               </div>
             </div>
           </div>

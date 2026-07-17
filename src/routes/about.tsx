@@ -5,7 +5,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About Us — Abishree Industry" },
-      { name: "description", content: "Abishree Industry (formerly Abirami Bakelite & Plastic, est. 1998) manufactures DC motor spares, bakelite mouldings, plastic-rubber components and panel accessories to customer drawings." },
+      { name: "description", content: "Abishree Industry (formerly Abirami Bakelite & Plastic, est. 1994) manufactures DC motor spares, bakelite mouldings, plastic-rubber components and panel accessories to customer drawings." },
       { property: "og:title", content: "About Abishree Industry" },
       { property: "og:description", content: "Precision electrical spare parts manufacturing — moulding, machining and assembly under one roof." },
     ],
@@ -26,10 +26,10 @@ function About() {
       <section className="border-b border-border/60" style={{ background: "var(--gradient-hero)" }}>
         <div className="mx-auto max-w-7xl px-6 py-20 text-white md:py-28">
           <div className="text-xs font-semibold uppercase tracking-widest" style={{ color: "var(--gold)" }}>About us</div>
-          <h1 className="mt-3 max-w-3xl text-4xl font-black leading-tight md:text-5xl">Building electrical spares to your drawing — since 1998.</h1>
+          <h1 className="mt-3 max-w-3xl text-4xl font-black leading-tight md:text-5xl">Building electrical spares to your drawing — since 1994.</h1>
           <p className="mt-6 max-w-2xl text-white/75">
             Abishree Industry is the successor to <strong className="text-white">Abirami Bakelite & Plastic</strong>, which
-            has been manufacturing bakelite and plastic electrical components since 1998. In 2018 the
+            has been manufacturing bakelite and plastic electrical components since 1994. In 2018 the
             business was reorganised and renamed Abishree Industry. We supply DC motor spares,
             bakelite mouldings, plastic and rubber parts, connectors, terminal and panel-board
             hardware — every item made to the specification and drawing provided by the customer.
@@ -48,7 +48,7 @@ function About() {
             quality control and shorter lead times.
           </p>
           <dl className="mt-8 grid grid-cols-2 gap-6">
-            {[["1998", "Parent co. established"],["2018", "Abishree Industry"],["100%", "Made to drawing"],["QC", "Inspected in-house"]].map(([k, v]) => (
+            {[["1994", "Parent co. established"],["2018", "Abishree Industry"],["100%", "Made to drawing"],["QC", "Inspected in-house"]].map(([k, v]) => (
               <div key={v} className="border-l-2 pl-4" style={{ borderColor: "var(--gold)" }}>
                 <dt className="text-2xl font-black text-primary">{k}</dt>
                 <dd className="text-xs uppercase tracking-widest text-muted-foreground">{v}</dd>

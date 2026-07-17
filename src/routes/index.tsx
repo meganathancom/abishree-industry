@@ -17,7 +17,7 @@ const categories = [
 ];
 
 const stats = [
-  { k: "1998", v: "Parent co. established" },
+  { k: "1994", v: "Parent co. established" },
   { k: "2018", v: "Abishree Industry" },
   { k: "100%", v: "Made to your drawing" },
   { k: "QC", v: "Inspected in-house" },

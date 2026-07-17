@@ -80,11 +80,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Abishree Industry — DC Motor & Electrical Spares Manufacturer" },
-      { name: "description", content: "Abishree Industry (formerly Abirami Bakelite & Plastic, est. 1998) manufactures DC motor spares, bakelite, plastic-rubber components, connectors, terminal & panel board accessories — made to your drawing." },
+      { title: "Abishree Industry — DC Motor & Electrical Motor Spares Manufacturer" },
+      { name: "description", content: "Abishree Industry (formerly Abirami Bakelite & Plastic, est. 1994) manufactures DC motor spares, bakelite, plastic-rubber components, connectors, terminal & panel board accessories — made to your drawing." },
       { name: "author", content: "Abishree Industry" },
-      { property: "og:title", content: "Abishree Industry — DC Motor & Electrical Spares" },
-      { property: "og:description", content: "Custom electrical spares manufactured to your drawing. Parent company Abirami Bakelite & Plastic since 1998." },
+      { property: "og:title", content: "Abishree Industry — DC Motor & Electrical Motor Spares" },
+      { property: "og:description", content: "Custom electrical spares manufactured to your drawing. Parent company Abirami Bakelite & Plastic since 1994." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -151,7 +151,7 @@ function SiteHeader() {
           <span className="flex flex-col leading-tight">
             <span className="text-[15px] font-bold tracking-tight text-primary sm:text-base">ABISHREE INDUSTRY</span>
             <span className="text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
-              Formerly Abirami Bakelite & Plastic · Est. 1998
+              Formerly Abirami Bakelite & Plastic · Est. 1994
             </span>
             <span className="mt-0.5 hidden items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] sm:inline-flex" style={{ color: "var(--navy)" }}>
               <span aria-hidden className="inline-block h-1 w-1 rounded-full" style={{ background: "var(--gold)" }} />
@@ -217,7 +217,7 @@ function SiteFooter() {
             />
             <div className="text-base font-bold text-white">Abishree Industry</div>
           </div>
-          <p>Precision manufacturer of DC motor spares, bakelite, plastic & rubber electrical components. Parent company Abirami Bakelite & Plastic — serving industry since 1998.</p>
+          <p>Precision manufacturer of DC motor spares, bakelite, plastic & rubber electrical components. Parent company Abirami Bakelite & Plastic — serving industry since 1994.</p>
           <p className="mt-3 text-xs uppercase tracking-[0.2em] text-[color:var(--gold)]">Reliable Connections · Brighter Futures</p>
         </div>
         <div>
